@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 2px solid red;
+    margin-bottom: 20px;
 }
 
 .headernav>img {
@@ -390,7 +390,7 @@ body {
         display: flex;
         flex-direction: column; 
         justify-content: center;
-        border: 2px solid green; 
+        
     }
     
     .headernav>img {
