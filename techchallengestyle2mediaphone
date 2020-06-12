@@ -1,0 +1,233 @@
+@media only screen and (max-width: 375px) {
+    
+    body { 
+        /*padding: 40px;*/
+        padding-bottom: 0px;
+        width: 100vw;
+        /*max-width: 400px;*/
+        /*height: 1000vh;*/
+        
+    }
+    
+    .headernav {
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        border: 2px solid green; 
+    }
+    
+    .headernav>img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .headernav>ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        list-style-type: none;
+        padding-left: 0px;
+    }
+
+    .headernav>ul>li {
+        margin-left: 20px;
+        color: #4A455C; 
+
+    }
+    
+    .techchallengesummary {
+        width: 100%;
+    }
+    
+    .techchallengesummary>img {
+        height: auto;
+        width: 100%;
+    }
+    
+    .techchallengesummary>div{
+        width: 100%;
+        background-color: #D64C31;
+        color: white;
+        position: static;
+        margin-top: 0px;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .techchallengesummary>div>h1 {
+        margin-left: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 12px;
+        
+    }
+    
+    .techchallengesummary>div>p {
+        margin-top: 5px;
+        line-height: 1.6;
+    }
+    
+    .welcometojuno {
+        padding: 50px 50px 50px 50px;
+        background-color: #E8F1EE; 
+        width: 100%; 
+        
+    }
+    
+    .welcometojuno>h1{
+        margin-top: 0px;
+        margin-bottom: 10px;
+        color: #4A455C;
+    }
+    
+    .imageandbuttoncontainer {
+        width: 90%;
+        position: relative;
+    }
+    .imageandbuttoncontainer>img{
+        height: auto;
+        width: 100%;
+    }
+    
+    .buttoncontainer {
+        position: absolute;
+        right: -25px;
+        top: -25px;
+        height: 50px;
+        width: 100px;
+        background-color: #D64C31;
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+        align-content: center; 
+    
+    }
+    
+    .buttoncontainer>img {
+        /*box-sizing: content-box;*/
+        display: inline-block;
+        object-fit: cover;
+        width: 50%;
+        background-color: #D64C31;
+    }
+    
+    .welcometojuno>p:nth-child(4) {
+        margin-top: 2px;
+    }
+    
+    .offerings {
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-evenly;
+    }
+    
+    .offeringspane {
+        margin: 20px;
+        width: 40%;
+        background-color: #FFF0E7;
+    }
+    
+    
+    .offeringspane>img {
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .offeringsdetail {
+        margin-top: -10px;
+        padding: 20px;
+        background-color: #FFF0E7;
+    }
+    .offeringsdetail>h1 {
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    
+    .offeringsdetail>p {
+        line-height: 1.6;
+    }
+    
+    .footernav, form, .stripe {
+        float: left;
+    }
+    
+    .footernav, .stripe {
+        margin-top: 50px;
+    }
+    footer {
+        position: relative;
+        margin-top: 10px;   
+    }
+    
+    
+    .footernav {
+        width: 60%;
+        height: 250px;
+        padding: 2%;
+        background-color: #D64C31;
+        
+        
+    }
+    
+    .footernav>img {
+        height: 40px;
+    }
+    
+    .footernav>ul {
+        padding-left: 5px;
+        margin-bottom: 20px;
+    
+    }
+    .footernav>ul>li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    .footernav>h2, .footernav>p {
+        margin: 2px;
+    }
+    form {
+        height: 300px;
+        max-width: 30%; 
+        background-color: #4A455C;
+        padding: 2%
+        
+    }
+    
+    form>h2 {
+        margin-bottom: 10px;
+    }
+    
+    form>input {
+        border-radius: 3px;
+        height: 35px;
+        padding-left: 5px;
+    }
+    
+    form>button {
+        display: block;
+        width: 100px;
+        height: 30px;
+        margin-top: 6px;
+        border-radius: 3px;
+        background-color: #FFF0E7;
+        color: #4A455C;
+    }
+    
+    i { 
+        margin-right: 10px;
+        color: white;
+    }
+    
+    .stripe {
+        background-color: #D64C31;
+        width: 10%;
+        height: 250px;
+        z-index: -1;
+    }
+    
+}

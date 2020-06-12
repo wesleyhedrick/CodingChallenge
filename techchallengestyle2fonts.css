@@ -1,0 +1,106 @@
+x/*FONTS*/
+.headernav>ul>li {
+    color: #4A455C; 
+    font-family: 'Montserrat', sans-serif;
+    font-eight: 400;
+    font-size: 16px;
+}
+
+.techchallengesummary>div>h1 {
+    /*84px / 500 medium / Cormorant Garamond*/
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 54px;
+}
+
+.techchallengesummary>div>p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.welcometojuno>h1{
+    /*75px / 500 medium / Montserrat*/
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #4A455C;
+
+}
+
+.welcometojunodate {
+    font-family: 'Montserrat', sans-serif;
+    color: #D64C31;
+     
+
+}
+
+.welcometojuno>p:nth-child(4) {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #4A455C;
+}
+
+.offeringsdetail>h1 {
+    /*75px / 500 medium / Cormorant Garamond*/
+    font-family: 'Cormorant Garamond'; 
+    font-weight: 500;
+    font-size: 40px;
+    color: #D64C31;
+}
+
+.offeringsdetail>p{
+    color: #4A455C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    
+}
+
+.footernav>h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+
+.footernav>p {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+.footernav>ul>li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    
+}
+
+.copyright {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 10px;
+    margin-bottom: 3px;
+}
+
+form {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+form>h2{
+    font-size: 16px;
+}
+
+
+@media only screen and (max-width: 375px) {
+.techchallengesummary>div>h1 {
+        font-size: 24px;
+
+    }
+}
+
+.techchallengesummary>div>p {
+    font-size: 10px;
+}
+

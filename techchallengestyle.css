@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid blue;
+}
+
+body {
+    padding: 20px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    /*border: 2px solid black;*/
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+nav>ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+    
+}
+nav>ul>li {
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.techchallengesummary {
+    background-color: tomato;
+    color: white;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    margin-top: -180px;
+    padding: 10px;
+
+}
+
+
+
+.welcometojuno {
+    background-color: aquamarine;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
