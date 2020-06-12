@@ -29,6 +29,9 @@ body {
     width: 250px;
 }
 
+.headernav>img:hover {
+    cursor: pointer;
+}
 .headernav>ul {
     padding-left: 20px;
     display: flex;
@@ -43,6 +46,13 @@ body {
     
 }
 
+.headernav>ul>li:hover {
+    background-color: lightgray; 
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
 .techchallengesummary {
     width: 100%;
     
@@ -110,12 +120,18 @@ body {
 
 }
 
+
 .buttoncontainer>img {
     /*box-sizing: content-box;*/
     display: inline-block;
     object-fit: cover;
     width: 50%;
     background-color: #D64C31;
+}
+
+.buttoncontainer>img:hover {
+    cursor: pointer;
+    border: 2px solid #1d0a06; 
 }
 
 .welcometojuno>p:nth-child(4) {
@@ -194,6 +210,12 @@ footer {
     margin-right: 20px;
 }
 
+.footernav>ul>li:hover {
+    background-color: lightgray; 
+    font-weight: bold;
+    cursor: pointer;
+    color: #4A455C; 
+}
 .footernav>h2, .footernav>p {
     margin: 2px;
 }
@@ -225,11 +247,20 @@ form>button {
     color: #4A455C;
 }
 
+form>button:hover {
+    border: 2px solid #4A455C;
+    background-color: #D64C31;
+}
 i { 
     margin-right: 10px;
     color: white;
 }
 
+i:hover{
+    
+    background-color: #FFF0E7;
+    color: #4A455C;
+}
 .stripe {
     background-color: #D64C31;
     width: 10%;
@@ -237,12 +268,12 @@ i {
     z-index: -1;
 }
 
+
 /*FONTS*/
-x/*FONTS*/
 .headernav>ul>li {
     color: #4A455C; 
     font-family: 'Montserrat', sans-serif;
-    font-eight: 400;
+    font-weight: 400;
     font-size: 16px;
 }
 
