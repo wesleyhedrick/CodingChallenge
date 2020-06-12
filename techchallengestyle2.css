@@ -1,0 +1,596 @@
+*{
+    box-sizing: border-box;
+    border: 1px solid blue;
+
+}
+
+html {
+    border: none;
+    }
+
+body { 
+    padding: 40px;
+    padding-bottom: 0px;
+    max-width: 1354px;
+    height: 100vh;
+    
+}
+
+
+
+.headernav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.headernav>img {
+    width: 250px;
+}
+
+.headernav>ul {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row; 
+    flex-flow: wrap;    
+    list-style-type: none;
+}
+
+.headernav>ul>li {
+    margin-left: 20px;
+    color: #4A455C; 
+    
+}
+
+.techchallengesummary {
+    width: 100%;
+    
+}
+
+.techchallengesummary>img {
+    height: auto;
+    width: 100%;
+}
+
+.techchallengesummary>div{
+    width: 450px;
+    background-color: #D64C31;
+    color: white;
+    position: relative;
+    margin-top: -250px;
+    padding: 20px;
+    text-align: left;
+}
+
+.techchallengesummary>div>h1 {
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.techchallengesummary>div>p {
+    margin-top: 5px;
+    line-height: 1.6;
+}
+
+.welcometojuno {
+    padding: 50px 50px 50px 50px;
+    background-color: #E8F1EE; 
+    width: 100%; 
+    margin-top: 10px;
+}
+
+.welcometojuno>h1{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #4A455C;
+}
+
+.imageandbuttoncontainer {
+    width: 90%;
+    position: relative;
+}
+.imageandbuttoncontainer>img{
+    height: auto;
+    width: 100%;
+}
+
+.buttoncontainer {
+    position: absolute;
+    right: -25px;
+    top: -25px;
+    height: 50px;
+    width: 100px;
+    background-color: #D64C31;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-content: center; 
+
+}
+
+.buttoncontainer>img {
+    /*box-sizing: content-box;*/
+    display: inline-block;
+    object-fit: cover;
+    width: 50%;
+    background-color: #D64C31;
+}
+
+.welcometojuno>p:nth-child(4) {
+    margin-top: 2px;
+}
+
+.offerings {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    margin-top: 10px;
+
+}
+
+.offeringspane {
+    margin: 20px;
+    width: 40%;
+    background-color: #FFF0E7;
+}
+
+
+.offeringspane>img {
+    width: 100%;
+    height: auto;
+}
+
+
+.offeringsdetail {
+    margin-top: -10px;
+    padding: 20px;
+    background-color: #FFF0E7;
+}
+.offeringsdetail>h1 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.offeringsdetail>p {
+    line-height: 1.6;
+}
+
+.footernav, form, .stripe {
+    float: left;
+}
+
+.footernav, .stripe {
+    margin-top: 50px;
+}
+footer {
+    position: relative;
+    margin-top: 10px;   
+}
+
+
+.footernav {
+    width: 60%;
+    height: 250px;
+    padding: 2%;
+    background-color: #D64C31;
+    
+}
+
+.footernav>img {
+    height: 40px;
+}
+
+.footernav>ul {
+    padding-left: 5px;
+    margin-bottom: 20px;
+
+}
+.footernav>ul>li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footernav>h2, .footernav>p {
+    margin: 2px;
+}
+form {
+    height: 300px;
+    max-width: 30%; 
+    background-color: #4A455C;
+    padding: 2%
+    
+}
+
+form>h2 {
+    margin-bottom: 10px;
+}
+
+form>input {
+    border-radius: 3px;
+    height: 35px;
+    padding-left: 5px;
+}
+
+form>button {
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin-top: 6px;
+    border-radius: 3px;
+    background-color: #FFF0E7;
+    color: #4A455C;
+}
+
+i { 
+    margin-right: 10px;
+    color: white;
+}
+
+.stripe {
+    background-color: #D64C31;
+    width: 10%;
+    height: 250px;
+    z-index: -1;
+}
+
+/*FONTS*/
+x/*FONTS*/
+.headernav>ul>li {
+    color: #4A455C; 
+    font-family: 'Montserrat', sans-serif;
+    font-eight: 400;
+    font-size: 16px;
+}
+
+.techchallengesummary>div>h1 {
+    /*84px / 500 medium / Cormorant Garamond*/
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 54px;
+}
+
+.techchallengesummary>div>p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.welcometojuno>h1{
+    /*75px / 500 medium / Montserrat*/
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #4A455C;
+
+}
+
+.welcometojunodate {
+    font-family: 'Montserrat', sans-serif;
+    color: #D64C31;
+}
+
+.welcometojuno>p:nth-child(4) {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #4A455C;
+}
+
+.offeringsdetail>h1 {
+    /*75px / 500 medium / Cormorant Garamond*/
+    font-family: 'Cormorant Garamond'; 
+    font-weight: 500;
+    font-size: 40px;
+    color: #D64C31;
+}
+
+.offeringsdetail>p{
+    color: #4A455C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    
+}
+
+.footernav>h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+
+.footernav>p {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+.footernav>ul>li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    
+}
+
+.copyright {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 10px;
+    margin-bottom: 3px;
+}
+
+form {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+form>h2{
+    font-size: 16px;
+}
+
+
+
+/*MEDIA*/
+@media only screen and (max-width: 768px) {
+body {
+    padding: 2%;
+}
+
+.offeringspane {
+    width: 43%;
+}
+}
+
+@media only screen and (max-width: 375px) {
+    
+    body { 
+        padding: 2%;
+        padding-bottom: 0px;
+        width: 100vw;
+        /*max-width: 400px;*/
+        /*height: 1000vh;*/
+        
+    }
+    
+    .headernav {
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        border: 2px solid green; 
+    }
+    
+    .headernav>img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .headernav>ul {
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        justify-content: center;
+        list-style-type: none;
+        padding-left: 0px;
+    }
+
+    .headernav>ul>li {
+        margin-left: 20px;
+        color: #4A455C; 
+
+    }
+    
+    .techchallengesummary {
+        width: 100%;
+    }
+    
+    .techchallengesummary>img {
+        height: auto;
+        width: 100%;
+    }
+    
+    .techchallengesummary>div{
+        width: 100%;
+        background-color: #D64C31;
+        color: white;
+        position: static;
+        margin-top: 0px;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .techchallengesummary>div>h1 {
+        margin-left: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 24px;
+        
+    }
+    
+    .techchallengesummary>div>p {
+        margin-top: 5px;
+        line-height: 1.6;
+        font-size: 10px;
+    }
+    
+    .welcometojuno {
+        margin-top: 5px;
+        padding: 2%;
+        background-color: #E8F1EE; 
+        width: 100%;
+        
+        
+    }
+    
+    .welcometojuno>h1{
+        margin-top: 0px;
+        margin-bottom: 10px;
+        color: #4A455C;
+        font-size: 24px;    
+        text-align: center;
+    }
+    
+    .welcometojunodate {
+        text-align: center;
+    }
+    .welcometojuno>p:nth-child(4) {
+        font-size: 18px;
+        margin-top: 1px;
+        text-align: center;
+    }
+
+    .imageandbuttoncontainer {
+        width: 100%;
+        position: relative;
+    }
+    .imageandbuttoncontainer>img{
+        height: auto;
+        width: 100%;
+    }
+    
+    .buttoncontainer {
+        position: absolute;
+        right: -10px;
+        top: -10px;
+        height: 35px;
+        width: 75px;
+        background-color: #D64C31;
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+        align-content: center; 
+    
+    }
+    
+    .buttoncontainer>img {
+        /*box-sizing: content-box;*/
+        display: inline-block;
+        object-fit: cover;
+        width: 50%;
+        background-color: #D64C31;
+    }
+    
+    .welcometojuno>p:nth-child(4) {
+        margin-top: 2px;
+    }
+    
+    .offerings {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-evenly;
+    }
+    
+    .offeringspane {
+        margin: 0%;
+        margin-top: 5px;
+        width: 100%;
+        background-color: #FFF0E7;
+    }
+    
+    
+    .offeringspane>img {
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .offeringsdetail {
+        margin-top: -10px;
+        padding: 20px;
+        background-color: #FFF0E7;
+        text-align: center;
+    }
+    .offeringsdetail>h1 {
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    
+    .offeringsdetail>p {
+        line-height: 1.6;
+    }
+    
+   
+    .footernav, .stripe {
+        margin-top: 0px;
+    }
+    footer {
+        position: relative;
+        margin-top: 10px;   
+    }
+    
+    
+    .footernav {
+        width: 100%;
+        height: 250px;
+        padding: 2%;
+        background-color: #D64C31;
+        
+        
+    }
+    
+    .footernav>img {
+        height: 40px;
+    }
+    
+    .footernav>ul {
+        padding-left: 5px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .footernav>ul>li {
+        display: inline-block;
+        margin-right: 20px;
+        margin-bottom: 3px;
+    }
+    
+    .footernav>h2, .footernav>p {
+        margin: 2px;
+    }
+    .footernav {
+        font-size: 12px;
+    }
+    form {
+        height: 300px;
+        max-width: 100%; 
+        background-color: #4A455C;
+        padding: 2%
+        
+    }
+    
+    form>h2 {
+        margin-bottom: 10px;
+    }
+    
+    form>input {
+        border-radius: 3px;
+        height: 35px;
+        padding-left: 5px;
+    }
+    
+    form>button {
+        display: block;
+        width: 100px;
+        height: 30px;
+        margin-top: 6px;
+        border-radius: 3px;
+        background-color: #FFF0E7;
+        color: #4A455C;
+    }
+    
+    i { 
+        margin-right: 10px;
+        color: white;
+    }
+    
+    .stripe {
+        background-color: none;
+        width: 0px;
+        height: 0px;
+        z-index: -1;
+    }
+    
+}
