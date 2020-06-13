@@ -358,6 +358,10 @@ form {
 
 }
 
+form>button {
+    font-family: 'Montserrat', sans-serif;
+    
+}
 span {
     display: none; 
 }
