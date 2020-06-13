@@ -55,12 +55,13 @@ body {
 }
 .techchallengesummary {
     width: 100%;
-    
+    position: relative;
 }
 
 .techchallengesummary>img {
     height: auto;
     width: 100%;
+
 }
 
 .techchallengesummary>div{
@@ -357,6 +358,24 @@ form {
 
 }
 
+span {
+    display: none; 
+}
+
+button:hover span {
+    display: block; 
+    width: 200px;
+    position: relative;
+    margin-top: 5px;
+    border: 2px solid #D64C31;
+    background-color: #FFF0E7;
+    color: #4A455C;
+    font-size: 24px;
+
+
+}
+
+
 form>h2{
     font-size: 16px;
 }
@@ -364,17 +383,40 @@ form>h2{
 
 
 /*MEDIA*/
+/*@media only screen and (max-width: 1024px){
+.techchallengesummary>div{
+    width: 50%;
+    background-color: green; 
+    margin-top: -20%;
+
+}*/
+    
+
+
 @media only screen and (max-width: 768px) {
-body {
-    padding: 2%;
+    body {
+        padding: 2%;
+    }
+
+    .techchallengesummary>div{
+        width: 350px;
+        height: 200px;
+        margin-top: -180px;
+        padding: 3%;    
+    }
+    .techchallengesummary>div>h1 {
+        font-size: 38px;
+    }
+
+    .techchallengesummary>div>p {
+        font-size: 14px
+    }
+    .offeringspane {
+        width: 43%;
+    }
 }
 
-.offeringspane {
-    width: 43%;
-}
-}
-
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 414px) {
     
     body { 
         padding: 2%;
